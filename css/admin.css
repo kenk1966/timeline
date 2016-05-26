@@ -1,0 +1,128 @@
+@charset "UTF-8";
+body {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 11px;
+	color: #fff;
+	margin-top:0px;
+}
+.bold {
+	font-weight: bold;
+}
+td { text-align:left; }
+.DDlogo {
+	width:134px;
+	margin-top:5px;
+}
+h1 {
+	color: #fff;
+	font-size: 16px;
+	text-align: center;
+	background:#f65735;
+	width:181px;
+	padding:3px;
+	margin:25px auto;
+	font-weight:100;
+}
+h3 {
+	color: #512c1d;
+	font-size: 14px;
+	font-weight: bold;
+}
+input, select, textarea {
+	margin: 3px;
+	width:100px;
+}
+label { margin:0px; 
+width:200px;
+text-align:left !important;
+text-transform: uppercase; 
+}
+#formBackground {
+	display: inline-block;
+	border: 1px solid #EAD7AD;
+	padding: 10px;
+	background:#00abdc;
+	width: 212px; 
+	text-align: center;
+	height:1100px;
+}
+#container {
+	text-align: center;
+	margin: 0px auto;
+}
+.grad { 
+  background-color: #F07575; /* fallback color if gradients are not supported */
+}
+.nobr	{ white-space:nowrap; }
+.asterisk {
+	color: #f00;
+}
+.noPad {
+	padding:0px;
+	margin:0px;
+	padding-right:3px;
+}
+input[type=submit] {
+    padding:5px; 
+    background:green; 
+    border:0 none;
+    cursor:pointer;
+    color:#fff;
+	width:40px;
+	height: 41px;
+display: inline;
+margin: 1px 0px;
+font-size:18px;
+}
+.submit_left {
+	padding: 12px;
+	background: #000 none repeat scroll 0% 0%;
+	border: 0px none;
+	cursor: pointer;
+	color: #FFF;
+	width: 120px;
+	font-size: 12px;
+	display: inline;
+	margin: 0px;
+	top: -3px;
+	position: relative;
+	padding-bottom: 13px;
+}
+.thin_input {
+	width:50px;
+	margin-right:5px;
+}
+.thin_dd {
+	width:40px;
+	margin-left:5px;
+}
+.button_info_entry, .button_edit_job, .button_delete_job {
+	display:inline-block;
+	margin:15px 23px;
+	width:40px;
+	height:40px;
+	background-image:    url(../art/icon-new-job.png);
+    background-size:     cover; 
+    background-repeat:   no-repeat;
+}
+.button_edit_job {
+	background-image:    url(../art/icon-edit.png);
+    background-size:     cover; 
+    background-repeat:   no-repeat;
+}
+.button_delete_job {
+	background-image:    url(../art/icon-delete.png);
+    background-size:     cover;
+    background-repeat:   no-repeat;
+}
+.button_narrow { margin: 0px 0px !important; }
+
+.headline {
+	clear:both;
+	margin:10px auto;
+	font-weight:800;
+	font-size:13px;
+}
+.file_link, .file_link:visited {
+	color:#fff;
+}
